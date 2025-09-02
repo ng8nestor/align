@@ -1,0 +1,21 @@
+# Align
+
+A simple, student-built health & fitness app to **log workouts** (name, notes, sets, reps, weight).  
+Built with **Expo (React Native)** + **TypeScript** and designed to look clean (inspired by Duolingo / Headspace / Airbnb).  
+This project is part of my portfolio and learning journey—aimed at practicing real SWE habits (Git/GitHub, PRs, linting, small commits).
+
+## Features (MVP)
+- Email + password auth (Firebase) – _coming next_
+- Add a workout: **name**, **description/reminders**, **sets**, **reps**, **weight**
+- List workouts (most recent first)
+- Lightweight, readable code—no fancy abstractions
+
+## Tech Stack
+- **Mobile**: Expo (React Native), TypeScript
+- **Backend-as-a-service**: Firebase Auth + Firestore (coming next)
+- **Tooling**: ESLint, Prettier, GitHub Actions (later)
+
+## Screenshots
+> _Add later_
+<!--
+![Logi
