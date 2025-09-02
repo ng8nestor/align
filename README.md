@@ -1,50 +1,106 @@
-# Welcome to your Expo app 👋
+# Align
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A student-built health & fitness app for logging workouts, built with React Native and TypeScript. This project showcases my learning journey in mobile development and software engineering practices.
 
-## Get started
+## 📱 About
 
-1. Install dependencies
+**Align** is a personal portfolio project that demonstrates my growth as a computer science student. Inspired by the clean, intuitive design of apps like Duolingo, Headspace, and Airbnb, I built this workout tracker to practice real-world software engineering skills.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- **Add Workouts**: Log workout details including name, description, sets, reps, and weight
+- **Clean Navigation**: Seamless navigation between Home and Add Workout screens using Expo Router
+- **Modern UI**: Clean, minimalist design focused on user experience
+- **TypeScript**: Full type safety for better code quality and developer experience
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Frontend**: React Native with Expo
+- **Language**: TypeScript
+- **Navigation**: Expo Router
+- **Styling**: React Native StyleSheet
+- **Development**: ESLint, Prettier
+- **Version Control**: Git & GitHub
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎨 Branding
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+I created custom assets to give Align its own visual identity:
 
-## Get a fresh project
+- **`align-logo-minimal-1024x1024.png`** → Used for app icon, Android adaptive icon, and web favicon
+- **`align-logo.png`** → Used for the splash screen when the app loads
 
-When you're ready, run:
+The design follows a clean, minimalist approach that matches the app's focus on simplicity and user experience.
 
-```bash
-npm run reset-project
+## 📂 Project Structure
+
+```
+Align/
+├── app/                    # Expo Router screens
+│   ├── _layout.tsx        # Navigation layout
+│   ├── index.tsx          # Home screen
+│   └── add-workout.tsx    # Workout creation form
+├── components/            # Reusable UI components
+├── assets/               # Images and static files
+├── constants/            # App constants and themes
+├── hooks/               # Custom React hooks
+└── scripts/             # Build and utility scripts
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🚀 Getting Started
 
-## Learn more
+### Prerequisites
 
-To learn more about developing your project with Expo, look at the following resources:
+- Node.js (LTS version)
+- Expo CLI
+- iOS Simulator (macOS) or Android Studio
+- Git
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Installation
 
-## Join the community
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/align.git
+cd align
 
-Join our community of developers creating universal apps.
+# Install dependencies
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the development server
+npm start
+
+# Open in iOS Simulator (press 'i')
+# Or scan QR code with Expo Go app
+```
+
+## 🎯 Learning Goals
+
+This project was designed to help me develop essential software engineering skills:
+
+- **Git & GitHub**: Version control, branching, and collaborative development
+- **React Native**: Cross-platform mobile development with Expo
+- **TypeScript**: Type-safe JavaScript for better code quality
+- **Software Engineering Habits**: Clean code, project structure, and documentation
+- **UI/UX Design**: Creating intuitive, user-friendly interfaces
+
+## 🗺️ Roadmap
+
+- [ ] **Firebase Integration**: User authentication and cloud data storage
+- [ ] **Workout History**: View and manage past workouts
+- [ ] **Progress Tracking**: Charts and analytics for fitness progress
+- [ ] **Social Features**: Share workouts and connect with friends
+- [ ] **Offline Support**: Work without internet connection
+- [ ] **Push Notifications**: Workout reminders and motivation
+
+## 📚 What I Learned
+
+Building Align taught me valuable lessons about:
+
+- Mobile app development with React Native and Expo
+- TypeScript for type-safe development
+- Git workflow and version control best practices
+- Clean code architecture and component design
+- User experience and interface design principles
+
+---
+
+_This project represents my commitment to continuous learning and growth as a software engineer. Feedback and suggestions are always welcome!_
